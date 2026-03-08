@@ -41,7 +41,7 @@ export async function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2.5 group mb-4">
               <Image
-                src="/images/logo/logo.webp"
+                src="/images/logo/logo.png"
                 alt="Vanashree Logo"
                 width={32}
                 height={32}

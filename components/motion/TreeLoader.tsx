@@ -39,7 +39,7 @@ export function TreeLoader({ onComplete }: TreeLoaderProps) {
       <div className="relative w-[160px] h-[160px]">
         {/* Ghost — faint silhouette so the space doesn't look empty */}
         <Image
-          src="/images/logo/logo.webp"
+          src="/images/logo/logo.png"
           alt=""
           width={160}
           height={160}
@@ -58,7 +58,7 @@ export function TreeLoader({ onComplete }: TreeLoaderProps) {
           }}
         >
           <Image
-            src="/images/logo/logo.webp"
+            src="/images/logo/logo.png"
             alt="Vanashree"
             width={160}
             height={160}

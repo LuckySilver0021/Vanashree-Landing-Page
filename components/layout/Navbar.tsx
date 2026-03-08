@@ -46,7 +46,7 @@ export function Navbar() {
             className="flex items-center gap-2.5 text-white font-bold text-lg tracking-wide group"
           >
             <Image
-              src="/images/logo/logo.webp"
+              src="/images/logo/logo.png"
               alt="Vanashree Logo"
               width={36}
               height={36}
