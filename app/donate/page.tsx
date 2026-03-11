@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
 import { getPageContent } from '@/lib/content'
 import { PageHeader } from '@/components/layout/PageHeader'
 import { FadeIn } from '@/components/motion/FadeIn'
 import { CTASection } from '@/components/sections/CTASection'
 import { CopyButton } from '@/components/donate/CopyButton'
+import { QRZoom } from '@/components/donate/QRZoom'
 import {
   IconLeaf,
   IconBuildingBank,
@@ -61,16 +61,7 @@ export default async function DonatePage() {
                   {/* Top accent */}
                   <div className="h-1 bg-gradient-to-r from-leaf via-gold to-fern" />
                   <div className="p-6 flex flex-col items-center gap-5">
-                    <div className="rounded-2xl overflow-hidden shadow-md border border-moss/10">
-                      <Image
-                        src="/images/qrCode.jpg"
-                        alt="Vanashree Gramvikas Pratishthan UPI QR Code — Bank of Baroda"
-                        width={280}
-                        height={280}
-                        className="object-cover"
-                        priority
-                      />
-                    </div>
+                    <QRZoom />
 
                     {/* UPI ID row */}
                     <div className="w-full bg-white rounded-2xl border border-moss/15 px-4 py-3 flex items-center justify-between gap-3">
