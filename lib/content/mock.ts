@@ -79,6 +79,13 @@ export interface PageContent {
   footerPhone: string
   footerWhatsapp: string
   footerInstagram: string
+  // Donate
+  donateTrustName: string
+  donateUpiId: string
+  donateBankName: string
+  donateBankBranch: string
+  donateBankAccount: string
+  donateIfsc: string
 }
 
 // ─── Mock Data ──────────────────────────────────────────
@@ -272,6 +279,12 @@ export const pageContent: PageContent = {
   footerPhone: '+91 96996 11329',
   footerWhatsapp: '919699611329',
   footerInstagram: 'https://www.instagram.com/vanashree_ngo/',
+  donateTrustName: 'Vanashree Gramvikas Pratishthan',
+  donateUpiId: 'vanash969961988@barodampay',
+  donateBankName: 'Bank of Baroda',
+  donateBankBranch: 'Parner',
+  donateBankAccount: '42090100002988',
+  donateIfsc: 'BARB0PARAHM',
 }
 
 // ─── Content Fetching Functions ─────────────────────────

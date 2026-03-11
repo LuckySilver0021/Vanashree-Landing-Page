@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { getPageContent } from '@/lib/content'
 import {
   IconBrandInstagram,
+  IconBrandWhatsapp,
   IconMail,
   IconMapPin,
   IconArrowUpRight,
@@ -15,6 +16,7 @@ const quickLinks = [
   { href: '/gallery', label: 'Gallery' },
   { href: '/blog', label: 'Blog & Updates' },
   { href: '/contact', label: 'Contact' },
+  { href: '/donate', label: 'Donate' },
 ]
 
 const programLinks = [
@@ -52,16 +54,37 @@ export async function Footer() {
             <p className="text-white/50 text-sm leading-relaxed max-w-xs">
               {page.footerTagline}
             </p>
-            <a
-              href={page.footerInstagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-5 inline-flex items-center gap-2 text-white/40 hover:text-gold text-sm transition-colors duration-300"
-            >
-              <IconBrandInstagram size={18} />
-              @vanashree_ngo
-              <IconArrowUpRight size={13} />
-            </a>
+            <div className="mt-5 flex items-center gap-3">
+              <a
+                href={page.footerInstagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="w-9 h-9 rounded-xl bg-white/5 hover:bg-gold/20 flex items-center justify-center text-white/40 hover:text-gold transition-all duration-300"
+              >
+                <IconBrandInstagram size={18} />
+              </a>
+              {page.footerWhatsapp && (
+                <a
+                  href={`https://wa.me/${page.footerWhatsapp}?text=Hi%20Vanashree%20team%2C%20I%20would%20like%20to%20connect%20with%20you.`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="WhatsApp"
+                  className="w-9 h-9 rounded-xl bg-white/5 hover:bg-[#25D366]/20 flex items-center justify-center text-white/40 hover:text-[#25D366] transition-all duration-300"
+                >
+                  <IconBrandWhatsapp size={18} />
+                </a>
+              )}
+              {page.footerEmail && (
+                <a
+                  href={`mailto:${page.footerEmail}`}
+                  aria-label="Email"
+                  className="w-9 h-9 rounded-xl bg-white/5 hover:bg-leaf/20 flex items-center justify-center text-white/40 hover:text-leaf transition-all duration-300"
+                >
+                  <IconMail size={18} />
+                </a>
+              )}
+            </div>
           </div>
 
           {/* Quick Links */}
