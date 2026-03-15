@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/irani/Desktop/git_con/Vanashree-Landing-Page/apps/docs/app/globals.css"],"sourcesContent":["* { box-sizing: border-box; }\r\nbody { margin: 0; font-family: Inter, system-ui, -apple-system, sans-serif; }\r\n"],"names":[],"mappings":"AAAA;;;;AACA"}}]
+}

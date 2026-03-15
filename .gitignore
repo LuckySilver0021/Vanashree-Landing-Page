@@ -8,6 +8,10 @@
 /out/
 /build
 
+# ─── Turbo Build ─────────────────────────────────────────
+.turbo/
+
+
 # ─── Environment variables (NEVER commit secrets) ────────
 .env
 .env.local
