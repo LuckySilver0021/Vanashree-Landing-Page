@@ -14,7 +14,7 @@ export default function Page() {
           color: "#1e293b",
           margin: 0 
         }}>
-          👋 Welcome to Vanashree
+          Welcome to Vanashree Repository
         </h1>
         <p style={{ 
           fontSize: "1.1rem", 

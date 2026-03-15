@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button'
+import { Button } from '@vanashree/ui'
 import Link from 'next/link'
 import { IconTree, IconArrowLeft, IconHome } from '@tabler/icons-react'
 

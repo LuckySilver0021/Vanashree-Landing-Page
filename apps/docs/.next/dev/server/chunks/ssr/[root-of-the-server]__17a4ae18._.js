@@ -41,7 +41,7 @@ function Page() {
                             color: "#1e293b",
                             margin: 0
                         },
-                        children: "👋 Welcome to Vanashree"
+                        children: "Welcome to Vanashree Repository"
                     }, void 0, false, {
                         fileName: "[project]/apps/docs/app/page.tsx",
                         lineNumber: 11,

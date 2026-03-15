@@ -12,6 +12,7 @@
       "outputs": []
     },
     "start": {
+      "dependsOn": ["^build"],
       "cache": false
     }
   }

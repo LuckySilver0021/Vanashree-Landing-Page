@@ -1,7 +1,7 @@
 'use client'
 
 import { FadeIn } from '@/components/motion/FadeIn'
-import { Button } from '@/components/ui/button'
+import { Button } from '@vanashree/ui'
 import Link from 'next/link'
 import { IconArrowRight } from '@tabler/icons-react'
 import type { ReactNode } from 'react'

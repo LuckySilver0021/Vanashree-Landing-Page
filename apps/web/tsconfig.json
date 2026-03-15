@@ -19,7 +19,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@vanashree/ui": ["../../packages/ui/src"],
+      "@vanashree/ui/*": ["../../packages/ui/src/*"]
     }
   },
   "include": [

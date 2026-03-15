@@ -12,9 +12,7 @@ import { ImpactStrip } from '@/components/sections/ImpactStrip'
 import { BlogCard } from '@/components/sections/BlogCard'
 import { CTASection } from '@/components/sections/CTASection'
 import { MissionVisionCards } from '@/components/sections/MissionVisionCards'
-import { DynamicIcon } from '@/components/ui/icon'
-import { Button } from '@/components/ui/button'
-import { Badge } from '@/components/ui/badge'
+import { DynamicIcon, Badge, Button} from '@vanashree/ui'
 import Link from 'next/link'
 import Image from 'next/image'
 import {
@@ -49,7 +47,7 @@ export default async function HomePage() {
           quality={85}
         />
         {/* Cinematic overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-forest/40 to-forest/80" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/60 via-forest/40 to-forest/80" />
         {/* Warm glow accent */}
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[900px] h-[300px] rounded-full bg-gold/8 blur-3xl" />
 

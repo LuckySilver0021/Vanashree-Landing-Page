@@ -67,8 +67,10 @@ next-env.d.ts
 apps/web/.next
 apps/docs/.next
 packages/ui/dist
+packages/ui/.turbo
 apps/web/package-lock.json
 apps/docs/package-lock.json
+
 
 # ─── Editor / OS ───────────────────────────────────────
 .vscode

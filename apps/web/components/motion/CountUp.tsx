@@ -23,7 +23,6 @@ export function CountUp({
 
   useEffect(() => {
     if (!inView || reduce) {
-      setCount(target)
       return
     }
 
